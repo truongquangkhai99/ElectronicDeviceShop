@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class DAOHelper {
 
-    protected String jdbcURL ="jdbc:postgres://ctlcrsgbiftbfd:f39c225803da667c035af20503834f6f365b913fe1713154135c2ecd7fd8e617@ec2-3-215-118-246.compute-1.amazonaws.com:5432/d19p4k1einmo2f";
+    protected String jdbcURL ="jdbc:postgresql://ec2-3-215-118-246.compute-1.amazonaws.com:5432/d19p4k1einmo2f";
     protected String jdbcUsername = "ctlcrsgbiftbfd";
     protected String jdbcPassword = "f39c225803da667c035af20503834f6f365b913fe1713154135c2ecd7fd8e617";
 

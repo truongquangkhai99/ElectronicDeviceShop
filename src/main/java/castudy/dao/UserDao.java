@@ -9,9 +9,9 @@ import java.sql.SQLException;
 import java.util.List;
 
 public class UserDao extends DAOHelper implements BaseDAO<User>  {
-    private static final String INSERT_ACCOUNT="INSERT INTO \"user\" (\"userName\",\"password\",\"chucvu\",\"email\") VALUES(?,?,?,?);";
+    private static final String INSERT_ACCOUNT="INSERT INTO public.user (\"userName\",\"password\",\"chucvu\",\"email\") VALUES(?,?,?,?);";
 
-    private static final String SELECT_USER="SELECT * FROM \"user\" where \"userName\"=? and \"password\"=?;";
+    private static final String SELECT_USER="SELECT * FROM public.user where \"userName\"=? and \"password\"=?;";
 
     @Override
     public void insert(User account) throws SQLException {
