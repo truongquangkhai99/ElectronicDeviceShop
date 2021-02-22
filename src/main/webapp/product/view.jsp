@@ -316,7 +316,7 @@
                                                 <label class=" form-control-label">Name</label>
                                             </div>
                                             <div class="col-12 col-md-9">
-                                                <input type="text"  name="name" value="${product.getTenSanPham()}" class="form-control">
+                                                <input type="text"  name="name" value="${product.getTenSanPham()}" class="form-control" disabled="disabled">
                                             </div>
                                         </div>
                                         <div class="row form-group">
@@ -324,7 +324,7 @@
                                                 <label class=" form-control-label">Color</label>
                                             </div>
                                             <div class="col-12 col-md-9">
-                                                <input type="text" name="mauSac" value="${product.getMauSac()}" class="form-control" />
+                                                <input type="text" name="mauSac" value="${product.getMauSac()}" class="form-control" disabled="disabled">
                                             </div>
                                         </div>
                                         <div class="row form-group">
@@ -332,7 +332,7 @@
                                                 <label  class=" form-control-label">Price</label>
                                             </div>
                                             <div class="col-12 col-md-9">
-                                                <input type="text"  name="price" value="${product.getGiaSanPham()}" placeholder="Price" class="form-control">
+                                                <input type="text"  name="price" value="${product.getGiaSanPham()}" placeholder="Price" class="form-control" disabled="disabled">
                                             </div>
                                            </div>
                                         <div class="row form-group">
@@ -340,7 +340,7 @@
                                                 <label  class=" form-control-label">Amount</label>
                                             </div>
                                             <div class="col-12 col-md-9">
-                                                <input type="text"  name="amount" value="${product.getSoLuong()}" class="form-control">
+                                                <input type="text"  name="amount" value="${product.getSoLuong()}" class="form-control" disabled="disabled">
                                             </div>
                                         </div>
                                         <div class="row form-group">
@@ -348,7 +348,7 @@
                                                 <label  class=" form-control-label">Amount Sell</label>
                                             </div>
                                             <div class="col-12 col-md-9">
-                                                <input type="text"  name="amount" value="${product.getSoLuongMua()}" class="form-control">
+                                                <input type="text"  name="amount" value="${product.getSoLuongMua()}" class="form-control" disabled="disabled">
                                             </div>
                                         </div>
                                         <div class="row form-group">
@@ -356,7 +356,7 @@
                                                 <label class=" form-control-label">ProductLines</label>
                                             </div>
                                             <div class="col-12 col-md-9">
-                                                <input type="text"  name="productline" value="${product.getLoaiSanPham().tenTheLoai}" class="form-control">
+                                                <input type="text"  name="productline" value="${product.getLoaiSanPham().tenTheLoai}" class="form-control" disabled="disabled">
                                             </div>
                                         </div>
                                         <div class="row form-group">
@@ -364,7 +364,7 @@
                                                 <label  class=" form-control-label">ProductVendor</label>
                                             </div>
                                             <div class="col-12 col-md-9">
-                                                <input type="text"  name="productVendor" value="${product.getNhaSanXuat().tenNhaSanXuat}" class="form-control">
+                                                <input type="text"  name="productVendor" value="${product.getNhaSanXuat().tenNhaSanXuat}" class="form-control" disabled="disabled">
                                             </div>
                                         </div>
                                         <div class="row form-group">
@@ -372,7 +372,7 @@
                                                 <label  class=" form-control-label">Ngày sản xuất</label>
                                             </div>
                                             <div class="col-12 col-md-9">
-                                                <input name="begin" value="${product.getNgaySanXuat()}" class="form-control">
+                                                <input name="begin" value="${product.getNgaySanXuat()}" class="form-control" disabled="disabled">
                                             </div>
                                         </div>
                                         <div class="row form-group">
@@ -380,7 +380,7 @@
                                                 <label  class=" form-control-label">Hạn sử dụng</label>
                                             </div>
                                             <div class="col-12 col-md-9">
-                                                <input name="end" value="${product.getHanSudung()}" class="form-control">
+                                                <input name="end" value="${product.getHanSudung()}" class="form-control" disabled="disabled">
                                             </div>
                                         </div>
                                         <div class="row form-group">
@@ -388,7 +388,7 @@
                                                 <label class=" form-control-label">Mô tả</label>
                                             </div>
                                             <div class="col-12 col-md-9">
-                                                <textarea name="mota" rows="9" placeholder="Content..." class="form-control">${product.getMoTa()}</textarea>
+                                                <textarea name="mota" rows="9" placeholder="Content..." class="form-control" disabled="disabled">${product.getMoTa()}</textarea>
                                             </div>
                                         </div>
                                         <div class="row form-group">
