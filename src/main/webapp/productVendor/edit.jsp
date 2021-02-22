@@ -66,19 +66,19 @@
             <div class="container-fluid">
                 <ul class="navbar-mobile__list list-unstyled">
                     <li>
-                        <a href="http://localhost:8080/products">
+                        <a href="/products">
                             <i class="fas fa-chart-bar"></i>Quản lý sản phẩm</a>
                     </li>
                     <li>
-                        <a href="http://localhost:8080/productLines">
+                        <a href="/productLines">
                             <i class="fas fa-table"></i>Quản lý thể loại</a>
                     </li>
                     <li>
-                        <a href="http://localhost:8080/productVendors">
+                        <a href="/productVendors">
                             <i class="far fa-check-square"></i>Quản lý nhà sản xuất</a>
                     </li>
                     <li>
-                        <a href="http://localhost:8080/Blog">
+                        <a href="/Blog">
                             <i class="far fa-check-square"></i>Quản lý blog</a>
                     </li>
                 </ul>
@@ -98,19 +98,19 @@
             <nav class="navbar-sidebar">
                 <ul class="list-unstyled navbar__list">
                     <li class="active">
-                        <a href="http://localhost:8080/products">
+                        <a href="/products">
                             <i class="fas fa-chart-bar"></i>Quản lý sản phẩm</a>
                     </li>
                     <li>
-                        <a href="http://localhost:8080/productLines">
+                        <a href="/productLines">
                             <i class="fas fa-table"></i>Quản lý thể loại</a>
                     </li>
                     <li>
-                        <a href="http://localhost:8080/productVendors">
+                        <a href="/productVendors">
                             <i class="far fa-check-square"></i>Quản lý nhà sản xuất</a>
                     </li>
                     <li>
-                        <a href="http://localhost:8080/Blog">
+                        <a href="/Blog">
                             <i class="far fa-check-square"></i>Quản lý blog</a>
                     </li>
                 </ul>
